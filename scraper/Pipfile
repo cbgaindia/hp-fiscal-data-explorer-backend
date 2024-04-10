@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+scrapy = "*"
+pylint = "*"
+twisted = "*"
+psycopg2 = "*"
+apache-airflow = {extras = ["crypto", "password"],version = "*"}
+falcon = "*"
+gunicorn = "*"
+pymysql = "*"
+
+[requires]
+python_version = "3.6"
